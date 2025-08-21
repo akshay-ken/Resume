@@ -2,7 +2,7 @@ import Switch from "./ToggleSwitch";
 
 export function HeaderSection() {
   return (
-    <header className="flex flex-row items-baseline-last gap-x-2 md:gap-x-8 px-1 py-2 md:p-4 ">
+    <header className="flex flex-row items-baseline-last gap-x-2 md:gap-x-8 px-1 py-2 md:p-4 border-b-4 border-zinc-900">
       <h1 className="font-zcool md:text-shadow-[5px_4px_2px] text-shadow-[2px_2px_1px] text-shadow-zinc-400 text-2xl md:text-7xl">
         Akshay Nalawade
       </h1>
