@@ -4,7 +4,7 @@ const Switch = () => {
       <input className="peer hidden" id="toggle" type="checkbox" />
       <div
         className="relative w-[70px] md:w-[110px] h-[30px] md:h-[50px] bg-white peer-checked:bg-zinc-500 rounded-full after:absolute after:content-[''] md:after:w-[40px] after:w-[25px] md:after:h-[40px] after:h-[25px] after:bg-gradient-to-r from-orange-500 to-yellow-400 peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full md:after:top-[5px] after:top-[3px] after:left-[3px]
-       md:after:left-[5px] peer-checked:after:left-[65px] md:peer-checked:after:left-[105px] peer-checked:after:translate-x-[-100%]  shadow-sm duration-300 after:duration-300 after:shadow-md"
+       md:after:left-[5px] peer-checked:after:left-[65px] md:peer-checked:after:left-[105px] peer-checked:after:translate-x-[-100%]  shadow-sm duration-600 after:duration-600 after:shadow-md"
       />
       <svg
         height={0}
