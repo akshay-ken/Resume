@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@layer base {
+  body {
+    @apply dark:bg-zinc-900;
+  }
+}
+
 @theme {
   --font-zcool: ZCOOL QingKe HuangYou;
   --font-web: Titillium+Web;
