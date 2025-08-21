@@ -1,5 +1,4 @@
 const Switch = ({ toggleDarkMode, checkValue }) => {
-  console.log("checked value: ", checkValue);
   return (
     <label className="inline-flex self-center ml-auto items-center relative">
       <input
