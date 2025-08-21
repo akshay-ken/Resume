@@ -11,8 +11,6 @@ export function MainPage() {
       } else {
         document.documentElement.classList.remove("dark");
       }
-
-      console.log("working");
     },
     [darkMode]
   );
