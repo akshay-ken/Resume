@@ -15,6 +15,17 @@ export function ProjectSection() {
             <span className="text-xs md:text-base">React.js Tailwind CSS</span>
           </p>
         </div>
+        <p className="font-web text-sm md:text-xl text-justify dark:text-zinc-200 leading-4 md:leading-7 tracking-tighter md:tracking-wide">
+          <span className="font-zcool text-base md:text-2xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300">
+            Overview
+          </span>
+          Practicing React.js and Tailwind CSS skills through ongoing Frontend
+          Mentor challenges over several months, applying concepts from 'React
+          Key Concepts' by Packt Publishers. Using Git workflow for version
+          control while building responsive web interfaces. Currently focused on
+          mastering frontend fundamentals with plans to expand into backend
+          development.
+        </p>
       </section>
     </section>
   );
