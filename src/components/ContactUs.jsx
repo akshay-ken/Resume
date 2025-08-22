@@ -5,20 +5,34 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 export function ContactUs() {
   return (
-    <nav className="flex flex-row flex-wrap text-sm tracking-tighter md:text-xl md:tracking-wide dark:text-zinc-200 border-t-4 font-web border-zinc-900 dark:border-zinc-400 p-1 md:p-4">
+    <nav className="flex flex-row flex-wrap text-base tracking-tighter md:text-xl md:tracking-wide dark:text-zinc-200 border-t-4 font-web border-zinc-900 dark:border-zinc-400 p-1 md:p-4">
       <div className="basis-1/2 md:basis-sm ">
-        <a href="" className="flex flex-row">
+        <a href="mailto:akshaybest3120@gmail.com" className="flex flex-row">
           <IoIosMail className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
-          google
+          akshaybest3120@gmail.com
         </a>
-        <FaLinkedin className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
+        <a
+          href="https://www.linkedin.com/in/akshay-ken/"
+          className="flex flex-row"
+        >
+          <FaLinkedin className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
+          linkedin.com/in/akshay-ken/
+        </a>
       </div>
       <div className="basis-1/2 md:basis-sm ">
-        <IoLogoWhatsapp className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
-        <IoLogoGithub className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
+        <a href="https://wa.me/7738780272" className="flex flex-row">
+          <IoLogoWhatsapp className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
+          +91 7738380272
+        </a>
+        <a href="https://github.com/akshay-ken" className="flex flex-row">
+          <IoLogoGithub className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
+          github.com/akshay-ken
+        </a>
       </div>
-      <div className="basis-full md:basis-lg ">
-        <FaLocationDot className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
+      <div className="basis-full md:basis-lg">
+        <a href="" className="flex flex-row justify-center">
+          <FaLocationDot className="size-6 md:size-8 fill-zinc-900 dark:fill-zinc-400" />
+        </a>
       </div>
     </nav>
   );
