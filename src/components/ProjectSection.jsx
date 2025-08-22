@@ -50,7 +50,27 @@ export function ProjectSection() {
           a consistent <b>Git workflow</b> with feature branches and regular
           commits for version control.
         </p>
-        <div className="flex flex-row flex-wrap"></div>
+        <div className="flex flex-row flex-wrap justify-start gap-x-2 md:gap-x-6 items-center">
+          <p className="font-web text-sm md:text-xl text-justify dark:text-zinc-200 leading-4 md:leading-7 tracking-tighter md:tracking-wide">
+            <span className="font-zcool text-base md:text-2xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300">
+              Links
+            </span>
+          </p>
+          <a
+            href="https://github.com/akshay-ken"
+            className="font-zcool text-sm md:text-xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300"
+          >
+            Proof of Work (commits from june - till now) :-
+            https://github.com/akshay-ken
+          </a>
+          <a
+            href="https://www.frontendmentor.io/profile/akshay-ken/solutions"
+            className="font-zcool text-sm md:text-xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300"
+          >
+            Profile :-
+            https://www.frontendmentor.io/profile/akshay-ken/solutions
+          </a>
+        </div>
       </section>
     </section>
   );
