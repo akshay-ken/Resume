@@ -26,6 +26,31 @@ export function ProjectSection() {
           mastering frontend fundamentals with plans to expand into backend
           development.
         </p>
+        <p className="font-web text-sm md:text-xl text-justify dark:text-zinc-200 leading-4 md:leading-7 tracking-tighter md:tracking-wide">
+          <span className="font-zcool text-base md:text-2xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300">
+            Key Achievements
+          </span>
+          I have deployed every <b>Frontend Mentor</b> challenge on{" "}
+          <b>Netlify</b>, with live demos accessible on the solutions page.
+          Throughout <b>35+</b> projects, I have built responsive, mobile-first
+          interfaces using <b>React.js components</b> and <b>JSX</b>. I
+          extensively applied <b>Tailwind CSS utilities</b>, including
+          breakpoints, pseudo-classes like hover and active,{" "}
+          <b>flexbox/grid layouts</b>, positional styling, and created custom
+          classes with <b>theme variables</b> for complex components. I
+          implemented React hooks such as <b>useState</b> for state management,
+          <b>useEffect</b> for dark mode and API data fetching,{" "}
+          <b>useReducer</b> for complex state logic, as well as practiced
+          <b>portals</b> and <b>refs</b>. I utilized <b>props</b> extensively to
+          pass data, <b>handled events</b> like onClick or onChange, and used
+          event.target.value for controlled inputs. I rendered lists with{" "}
+          <b>key</b>
+          props and showed <b>conditional content</b> on hover and click events,
+          applying conditional styling using <b>clsx</b>. All projects followed
+          a consistent <b>Git workflow</b> with feature branches and regular
+          commits for version control.
+        </p>
+        <div className="flex flex-row flex-wrap"></div>
       </section>
     </section>
   );
