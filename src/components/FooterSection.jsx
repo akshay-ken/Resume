@@ -11,28 +11,28 @@ export function FooterSection() {
         <p>Skills</p>
         <p>Education</p>
       </div>
-      <div className="flex flex-row">
-        <section className="w-[40vw] p-1 md:p-4 bg-sky-400 border-r-2 font-zcool border-dashed border-zinc-500 dark:border-zinc-50">
-          <div className="grid grid-rows-3 grid-cols-4">
-            <div className="flex flex-row items-center justify-center col-span-2">
+      <div className="flex flex-row mb-8">
+        <section className="w-[40vw] p-1 md:p-4 border-r-2 text-sm md:text-4xl dark:text-zinc-200 font-zcool border-dashed border-zinc-500 dark:border-zinc-50">
+          <div className="grid grid-rows-3 grid-cols-4 gap-1 md:gap-4">
+            <div className="flex flex-row items-center justify-center col-span-2 gap-x-1 md:gap-x-4 bg-zinc-200 dark:bg-zinc-400 md:py-4 rounded-md">
               <FaReact />
               React.js
             </div>
-            <div className="flex flex-row items-center justify-center col-span-2">
+            <div className="flex flex-row items-center justify-center col-span-2 gap-x-1 md:gap-x-4 bg-zinc-200 dark:bg-zinc-400 md:py-4 rounded-md">
               <LuLayoutDashboard />
-              Grid & Flexbox
+              Layout
             </div>
-            <div className="flex flex-row items-center justify-center col-span-3 border-r-2">
+            <div className="flex flex-row items-center justify-center col-span-3 gap-x-1 md:gap-x-4 bg-zinc-200 dark:bg-zinc-400 md:py-4 rounded-md">
               <RiTailwindCssFill />
               Tailwind CSS
             </div>
-            <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center bg-zinc-200 dark:bg-zinc-400 md:py-4 rounded-md">
               <PiFileJsx />
             </div>
-            <div className="flex flex-row items-center justify-center col-span-3">
+            <div className="flex flex-row items-center justify-center col-span-3 gap-x-1 md:gap-x-4 bg-zinc-200 dark:bg-zinc-400 md:py-4 rounded-md">
               <IoLogoJavascript /> JavaScript
             </div>
-            <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center gap-x-1 md:gap-x-4 bg-zinc-200 dark:bg-zinc-400 md:py-4 rounded-md">
               <FaGitAlt />
             </div>
           </div>
