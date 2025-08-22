@@ -37,31 +37,47 @@ export function FooterSection() {
             </div>
           </div>
         </section>
-        <section className="w-[60vw] p-1 md:p-4 flex flex-col gap-y-1 md:gap-y-4">
-          <div className="flex flex-row items-center">
-            <p className="font-zcool md:text-xl text-xs text-red-400 dark:bg-zinc-600 p-1 md:p-2 rounded-lg bg-zinc-200">
+        <section className="w-[60vw] p-1 md:p-4 flex flex-col  md:gap-y-4">
+          <div className="flex flex-row items-start">
+            <p className="font-zcool md:text-3xl text-base h-6 md:h-18 basis-full md:basis-1/4 text-center  text-red-400 dark:bg-zinc-600 md:p-2 rounded-lg bg-zinc-200">
               College Dropout
             </p>
-            <p className="font-web text-[8px] md:text-base leading-3 md:leading-6 tracking-tighter md:tracking-wide dark:bg-zinc-600 p-1 text-center md:p-2 rounded-lg bg-zinc-200">
+            <p className="font-web text-[8px] md:text-base hidden h-18 md:block  dark:text-zinc-200 leading-3 basis-3/4  md:leading-5 tracking-tighter md:tracking-wide dark:bg-zinc-600 p-1 text-center md:p-2 rounded-lg bg-zinc-200">
               Dropped out of engineering in 2018 due to financial issues.
               Distance learning delayed by COVID; now focused on self-taught web
               dev with plans for BCA alongside stable employment.
             </p>
           </div>
-          <div className="flex flex-row font-zcool">
-            <p className="text-xl md:text-5xl p-1 md:p-2 self-center basis-1/4 bg-sky-400">
+          <div className="flex flex-row justify-center font-zcool">
+            <p className="text-xs md:text-5xl p-1 md:p-2 text-center ordinal basis-1/2 bg-zinc-200 dark:text-zinc-200 dark:bg-zinc-600 md:basis-1/4 rounded-lg">
               12 <sup>th</sup>
             </p>
-            <div className="flex flex-col basis-3/4 bg-amber-300 p-1 md:p-2">
-              <div className="flex flex-row justify-between ">
+            <div className="md:flex flex-col basis-3/4 hidden justify-around px-4 bg-zinc-200 dark:text-zinc-200 dark:bg-zinc-600 rounded-lg">
+              <div className="flex flex-row justify-between text-2xl">
                 <p>HSC</p>
                 <p>2017</p>
                 <p>62%</p>
               </div>
-              <div className="flex flex-row justify-between text-xs">
+              <div className="flex flex-row justify-between text-base">
                 <p>C.K.T college, panvel</p>
 
                 <p>Computer Science</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row justify-center font-zcool">
+            <p className="text-xs md:text-5xl p-1 md:p-2 text-center ordinal basis-1/3 bg-zinc-200 dark:text-zinc-200 dark:bg-zinc-600 md:basis-1/4 rounded-lg">
+              10 <sup>th</sup>
+            </p>
+            <div className="md:flex flex-col basis-3/4 hidden justify-around px-4 bg-zinc-200 dark:text-zinc-200 dark:bg-zinc-600 rounded-lg">
+              <div className="flex flex-row justify-between text-2xl">
+                <p>SSC</p>
+                <p>2015</p>
+                <p>74%</p>
+              </div>
+              <div className="flex flex-row justify-between text-base">
+                <p>S.E.S school, Kalamboli</p>
+                <p>Mumbai University</p>
               </div>
             </div>
           </div>
