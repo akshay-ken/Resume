@@ -1,4 +1,4 @@
-export function PojectSection() {
+export function ProjectSection() {
   return (
     <section>
       <div></div>
