@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { HeaderSection } from "./HeaderSection";
 import { AboutMeSection } from "./AboutMeSection";
 import { ContactUs } from "./ContactUs";
+import { ProjectSection } from "./ProjectSection";
 
 export function MainPage() {
   const [darkMode, setDarkMode] = useState(false);
@@ -26,6 +27,7 @@ export function MainPage() {
       <HeaderSection toggleDarkMode={handleDarkMode} checkValue={darkMode} />
       <AboutMeSection />
       <ContactUs />
+      <ProjectSection />
     </main>
   );
 }
