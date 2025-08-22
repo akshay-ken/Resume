@@ -3,6 +3,7 @@ import { HeaderSection } from "./HeaderSection";
 import { AboutMeSection } from "./AboutMeSection";
 import { ContactUs } from "./ContactUs";
 import { ProjectSection } from "./ProjectSection";
+import { FooterSection } from "./FooterSection";
 
 export function MainPage() {
   const [darkMode, setDarkMode] = useState(false);
@@ -28,6 +29,7 @@ export function MainPage() {
       <AboutMeSection />
       <ContactUs />
       <ProjectSection />
+      <FooterSection />
     </main>
   );
 }
