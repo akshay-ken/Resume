@@ -1,3 +1,4 @@
+import { FaReact } from "react-icons/fa";
 export function FooterSection() {
   return (
     <footer>
@@ -5,8 +6,17 @@ export function FooterSection() {
         <p>Skills</p>
         <p>Education</p>
       </div>
-      <section></section>
-      <section></section>
+      <div className="flex flex-row">
+        <section className="w-[40vw] p-1 md:p-4 bg-sky-400 border-r-2 font-zcool border-dashed border-zinc-500 dark:border-zinc-50">
+          <div className="grid grid-rows-3 grid-cols-4">
+            <div>
+              <FaReact />
+              React.js
+            </div>
+          </div>
+        </section>
+        <section className="w-[60vw] p-1 md:p-4 bg-rose-400"></section>
+      </div>
     </footer>
   );
 }
