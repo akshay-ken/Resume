@@ -71,6 +71,54 @@ export function ProjectSection() {
             https://www.frontendmentor.io/profile/akshay-ken/solutions
           </a>
         </div>
+        <div className="border-b-2 border-dashed border-zinc-500 dark:border-zinc-50"></div>
+      </section>
+      <section className="flex flex-col p-1 md:p-4 gap-y-2 md:gap-y-5">
+        <div className="flex flex-row justify-between font-zcool">
+          <p className="text-base md:text-2xl bg-zinc-200 dark:bg-zinc-300 dark:text-zinc-700 p-1 md:p-2 rounded-sm tracking-tighter md:tracking-wide leading-4 md:leading-6">
+            This Resume
+          </p>
+          <p className="text-base md:text-2xl bg-zinc-200 dark:bg-zinc-300 dark:text-zinc-700 p-1 md:p-2 rounded-sm tracking-tighter md:tracking-wide leading-4 md:leading-6">
+            Technologies:-{" "}
+            <span className="text-xs md:text-base">React.js Tailwind CSS</span>
+          </p>
+        </div>
+        <p className="font-web text-sm md:text-xl text-justify dark:text-zinc-200 leading-4 md:leading-7 tracking-tighter md:tracking-wide">
+          <span className="font-zcool text-base md:text-2xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300">
+            Overview
+          </span>
+          Created this resume from scratch, starting with an original Canva
+          design—my first self-designed layout outside Frontend Mentor
+          mock-ups—optimized for A4 printing. I built the web version with
+          React.js and Tailwind CSS, following a disciplined Git workflow with
+          many commits across multiple branches to simulate team development.
+          Dark mode is handled via useEffect and Tailwind’s dark: variants; the
+          toggle uses the open-source “Switch” component by jubayer-10
+          (Uiverse.io) for a polished touch. Deployed on Netlify with code on
+          GitHub, the site’s component-based, responsive architecture serves as
+          both my functional resume and a live showcase of my frontend skills.
+        </p>
+
+        <div className="flex flex-row flex-wrap justify-start gap-x-2 md:gap-x-6 items-center">
+          <p className="font-web text-sm md:text-xl text-justify dark:text-zinc-200 leading-4 md:leading-7 tracking-tighter md:tracking-wide">
+            <span className="font-zcool text-base md:text-2xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300">
+              Links
+            </span>
+          </p>
+          <a
+            href="https://github.com/akshay-ken/Resume"
+            className="font-zcool text-sm md:text-xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300"
+          >
+            Github Repo: https://github.com/akshay-ken/Resume
+          </a>
+          <a
+            href="https://www.frontendmentor.io/profile/akshay-ken/solutions"
+            className="font-zcool text-sm md:text-xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300"
+          >
+            Profile :-
+            https://www.frontendmentor.io/profile/akshay-ken/solutions
+          </a>
+        </div>
       </section>
     </section>
   );
