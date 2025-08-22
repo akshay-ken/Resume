@@ -112,11 +112,10 @@ export function ProjectSection() {
             Github Repo: https://github.com/akshay-ken/Resume
           </a>
           <a
-            href="https://www.frontendmentor.io/profile/akshay-ken/solutions"
+            href="https://akshays-resume.netlify.app/"
             className="font-zcool text-sm md:text-xl dark:text-zinc-700 bg-zinc-200 rounded-sm p-1 md:p-2 dark:bg-zinc-300"
           >
-            Profile :-
-            https://www.frontendmentor.io/profile/akshay-ken/solutions
+            Netlify :- https://akshays-resume.netlify.app/
           </a>
         </div>
       </section>
