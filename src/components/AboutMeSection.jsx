@@ -1,7 +1,7 @@
 export function AboutMeSection() {
   return (
     <section className="p-2 md:p-6">
-      <p className="font-web text-sm md:text-xl text-justify dark:text-zinc-100">
+      <p className="font-web text-sm md:text-xl text-justify dark:text-zinc-100 tracking-tight md:tracking-wide md:leading-7 leading-4">
         <span className="font-zcool text-xl md:text-2xl">About Me :- </span> I
         am a <b>26-year-old college dropout</b> living in Navi Mumbai. I dropped
         out of college in 2018 due to financial challenges and began working in
